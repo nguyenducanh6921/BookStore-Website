@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+
+/* ROOT VARIABLE */
+:root{
+    --color-primary: #7380ec;
+    --color-danger: #ff7782;
+    --color-success: #41f1b6;
+    --color-warning: #ffbb55;
+    --color-white: #fff;
+    --color-info-dark: #7d8da1;
+    --color-info-light: #dce1eb;
+    --color-dark:#363949;
+    --color-light: rgba(132, 139, 200, 0.18);
+    --color-primary-variant: #111e88;
+    --color-dark-variant: #677483;
+    --color-background: #f6f6f9;
+
+    --card-border-radius: 2rem;
+    --border-radius-1: 0.4rem;
+    --border-radius-2: 0.8rem;
+    --border-radius-3: 1.2rem;
+
+    --card-padding:1.8rem;
+    --padding-1 : 1.2rem;
+
+   --box-shadow: 0 2rem 3rem var(--color-light);
+
+
+}
+
+
+.danger{
+    color: var(--color-danger);
+}
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+body{
+    background-color: rgb(134, 51, 51);
+    
+   
+}
+.row{
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 12px 12px 32px #363949;
+}
+
+.img{
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+.form-row{
+    margin-top:10px;
+    margin-bottom: 10px;
+}
+.btn1{
+    border: none;
+    outline: none;
+    height: 50px;
+    width: 100%;
+    border-radius: 5px;
+    background-color: #363949;
+    color: white;
+    font-weight: bold;
+}
+
+.btn1:hover{
+    outline: #363949;
+    border: 1px solid black;
+    color: black;
+    background-color: white;
+}
+a{
+   color: palevioletred;
+}
+a:hover{
+    color: rgb(229, 17, 88);
+    text-decoration: none;
+}
+.slogan{
+    margin-top: 200px;
+    color: rgb(2, 137, 248);
+    text-align: left;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+        /* message */
+/* sticky: stick trên màn hình kể cả khi scroll */
+.message{
+    position: sticky;
+    top: 0;
+    margin: auto;
+    max-width: 1200px;
+    background-color: var(--white);
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+    gap: 15px;
+}
+.message span{
+    font-size: 20px;
+    color: var(--black);
+}
+.message i{
+    cursor: pointer;
+    color: var(--red);
+    font-size: 25px;
+}
+
+.message i:hover{
+    transform: rotate(90deg);
+}
